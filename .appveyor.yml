@@ -66,5 +66,5 @@ test_script:
 - cmd: python test\util\rpcauth-test.py
 - cmd: python test\functional\test_runner.py --ci --quiet --combinedlogslen=4000 --failfast
 artifacts:
-#- path: bitcoin-%APPVEYOR_BUILD_VERSION%.zip
+- path: bitcoin-%APPVEYOR_BUILD_VERSION%.zip
 deploy: off
